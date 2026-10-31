@@ -40,9 +40,10 @@ An interactive single-page application (SPA) focused on pet adoption and care se
 
 #### 📌 Natural Wanders ("Природні мандри") | Full-Stack Web Application
 * **Frontend:** [tandem-front](https://github.com/Yulia2123/tandem-front) | **Backend:** [tandem-backend](https://github.com/Yulia2123/tandem-backend)
-A full-stack web application designed for eco-tourism and travel enthusiasts. Features user authentication, interactive destination browsing, and backend database storage.
-* **Role / Contributions:** Developed both frontend UI and backend REST API endpoints,
-* Backend: developed endpoints for register, get single story by ID and get recommended stories(popular stories with exact category) handled database routing,
-* Frontend: developed sections popular stories and register/login,
-* authentication, and state management.
-* **Tech Stack:** React, Next, Node.js, Express.js, MongoDB, REST API
+A full-stack eco-tourism platform for travel enthusiasts, featuring user authentication, content management, and a smart recommendation system.
+* **Key Contributions:**
+  * Developed secure user registration with cookie-based authentication.
+  * Built REST API endpoints for fetching story details by ID and content routing.
+  * Implemented recommendation logic to display top-favorited stories based on current category context.
+  * Handled frontend UI component development, API integration, and global state management.
+* **Tech Stack:** React, Node.js, Express.js, MongoDB, REST API, Cookie Auth
